@@ -69,5 +69,29 @@
 
  .box p {
     font-size: 40px;
-    margin-top: 25px;
+    margin-top: 20px;
  }
+
+#activeCases {
+   color: orange;
+}
+
+#newCases {
+   color: blue;
+}
+
+#recoveredCases {
+   color: green;
+}
+
+#totalDeath {
+   color: red;
+ }
+
+#totalCases {
+   color: pink;
+}
+
+#totalTest {
+   color: yellowgreen;
+}

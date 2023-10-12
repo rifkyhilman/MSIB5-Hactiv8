@@ -30,6 +30,9 @@ tombol.addEventListener("click", (event) => {
         fetch(`https://covid-193.p.rapidapi.com/statistics?country=${input}`, options)
             .then((result) => result.json())
             .then((data) => renderHTML(data.response[0]))
+            .catch(err => {
+                console.log(err);
+              })
     }
 });
 
@@ -51,8 +54,7 @@ function renderHTML (data) {
         totalDeatchBox.innerHTML = data.deaths.total;
         totalTestBox.innerHTML = data.tests.total;
     } else {
-       boxs.innerHTML = "Negara Tidak ada BROO !!";
-        location.reload();
+        alert("Negara Tidak ada !!");
     }
 
 };
