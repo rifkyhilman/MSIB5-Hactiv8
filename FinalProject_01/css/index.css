@@ -11,3 +11,22 @@
     width: 1438px;
     height: 741px;
 }
+
+
+ /* Halaman BLOG */
+
+ .blog {
+    margin-top: 75px;
+    background-color: #36CFBA;
+ }
+
+ .blog h1 {
+    color: #000;
+    font-size: 64px;
+    font-weight: 400;
+    margin-left: 49px;
+ }
+
+ .paragraf {
+    padding: 13px;
+ }
