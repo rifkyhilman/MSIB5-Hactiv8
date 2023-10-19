@@ -1,0 +1,13 @@
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+}
+
+.main-content {
+    overflow-x: hidden;
+}
+
+.hero img {
+    width: 1438px;
+    height: 741px;
+}
